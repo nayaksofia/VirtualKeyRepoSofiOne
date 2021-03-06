@@ -6,19 +6,20 @@
 2. Print Options to list, manage files and exit
 
 3. If choice is 1:
-    a. Read all files in the directory
+
+       a. Read all files in the directory
     
-    b. Sort files in ascending order using Collection.sort()
+       b. Sort files in ascending order using Collection.sort()
     
-    c. Print all the files
+       c. Print all the files
     
-    d. Goto 3
+       d. Goto 3
     
 4. If the choice is 2:
 
-   a. Print options to Add, Search and Delete Files
+     a. Print options to Add, Search and Delete Files
    
-   b. If the choice is 1
+     b. If the choice is 1
    
        i. Accept file name from the user
        
