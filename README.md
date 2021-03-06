@@ -3,9 +3,9 @@
 
 1. Start
 
-3. Print Options to list, manage files and exit
+2. Print Options to list, manage files and exit
 
-4. If choice is 1:
+3. If choice is 1:
     a. Read all files in the directory
     
     b. Sort files in ascending order using Collection.sort()
@@ -28,23 +28,23 @@
     
    c. If the choice is 2
    
-      i. Accept file name from the user
+       i. Accept file name from the user
       
-      ii. Delete the file with that name
+       ii. Delete the file with that name
       
-      iii. Goto b
+       iii. Goto b
       
    d. If the choice is 3
    
-      i. Accept file name from the user
+       i. Accept file name from the user
       
-      ii. Search for file with that name
+       ii. Search for file with that name
       
-      iii. If File Found Print Found
+       iii. If File Found Print Found
       
-      iv. Else, Print Not Found
+       iv. Else, Print Not Found
       
-      v. Goto b
+       v. Goto b
       
    e.  If the choice is 4 goto a
    
