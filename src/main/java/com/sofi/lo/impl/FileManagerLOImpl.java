@@ -11,7 +11,7 @@ import com.sofi.exception.FileNameNotFoundException;
 import com.sofi.lo.FileManagerLO;
 import com.sofi.model.FileDetail;
 
-public abstract class FileManagerLOImpl implements FileManagerLO {
+public class FileManagerLOImpl implements FileManagerLO {
   
 	private File root;
 	
@@ -44,7 +44,11 @@ public abstract class FileManagerLOImpl implements FileManagerLO {
 		
 	}
 
-	
+	@Override
+	public boolean deteteFile(String name) throws FileNameNotFoundException {
+		return false;
+	}
+
 
 	@Override
 	public boolean deleteFile(String name) throws FileNameNotFoundException {
