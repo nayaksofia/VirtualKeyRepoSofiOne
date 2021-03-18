@@ -13,15 +13,19 @@ import com.sofi.model.FileDetail;
 public class VirtualKeyMain {
 
 	public static void main(String[] args) {
+		System.out.println("*************************************************");
 		System.out.println("Welcome to Virtual Key For Your Repositories: ");
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner (System.in);
 		
 		int ch = 0;
 		FileManagerLOImpl FileManager = new FileManagerLOImpl("C:\\root");
-		System.out.println("Application Name: Sofia File Manager ");
+		System.out.println("************************************************");
+		System.out.println("Application Name: MY File Manager ");
 		System.out.println("Developer Name: Sofia Nayak");
 		System.out.println("Organization: Lokers Pvt. Ltd ");
 		System.out.println("Learning Institute: Simplilearn ");
+		System.out.println("***********************************************");
 		
 		do {
 			System.out.println("File Menu ");

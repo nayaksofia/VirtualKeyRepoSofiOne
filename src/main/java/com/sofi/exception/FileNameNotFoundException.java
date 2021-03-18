@@ -1,5 +1,6 @@
 package com.sofi.exception;
 
+@SuppressWarnings("serial")
 public class FileNameNotFoundException extends RuntimeException {
 
 	public FileNameNotFoundException() {
